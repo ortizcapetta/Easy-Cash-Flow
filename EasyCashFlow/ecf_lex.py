@@ -1,7 +1,7 @@
 import ply.lex as lex
 
 reserved = {'create': 'CREATE', 'earn': 'EARN', 'lose': 'LOSE', 'remove': 'REMOVE', 'display': 'DISPLAY',
-            'length': 'LENGTH', 'combine': 'COMBINE', 'substract': 'SUBSTRACT', 'pw': 'PW',
+            'length': 'LENGTH', 'combine': 'COMBINE', 'subtract': 'SUBTRACT', 'pw': 'PW',
             'fw': "FW", 'cfd': 'CFD'
             }
 
@@ -11,7 +11,6 @@ tokens = [
              'LPAREN',
              'RPAREN',
              'EQUAL',
-             'RANGE',
              'INTEGER',
              'FLOAT',
              'ID',
